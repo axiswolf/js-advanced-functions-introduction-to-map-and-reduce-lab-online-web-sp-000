@@ -15,9 +15,10 @@ function mapToSquare(array) {
   return array.map(i => i**2)
 }
 
-function reduceToTotal(array, start=0) {
-  const reducer = function(accumulate, current) {return accumulate + current}
-  return array.reduce(reducer + start)
+function reduceToTotal(sourceArray, startingPoint = 0){
+    const reducer = function(accumulator, currentValue){ return accumulator + currentValue }
+
+    return sourceArray.reduce(reducer, startingPoint)
 }
 
 function reduceToAllTrue() {
