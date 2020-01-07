@@ -11,6 +11,6 @@ function mapToDouble(array) {
   return array.map(i => i * 2)
 }
 
-function mapToSquare() {
-
+function mapToSquare(array) {
+  return array.map(i => i**2)
 }
