@@ -7,8 +7,8 @@ function mapToNoChange(array) {
   return array.map(i => i)
 }
 
-function mapToDouble() {
-
+function mapToDouble(array) {
+  return array.map(i => i * 2)
 }
 
 function mapToSquare() {
