@@ -14,3 +14,15 @@ function mapToDouble(array) {
 function mapToSquare(array) {
   return array.map(i => i**2)
 }
+
+function reduceToTotal() {
+  
+}
+
+function reduceToAllTrue() {
+  
+}
+
+function reduceToAnyTrue() {
+  
+}
