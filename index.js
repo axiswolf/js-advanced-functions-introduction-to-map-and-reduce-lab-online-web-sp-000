@@ -1,6 +1,6 @@
 // Your code here
-functuon mapToNegativize(array) {
-  return array.map(x => x * -1)
+function mapToNegativize(array) {
+  return array.map(i => i * -1)
 }
 
 function mapToNoChange() {
