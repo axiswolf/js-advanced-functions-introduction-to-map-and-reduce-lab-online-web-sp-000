@@ -4,13 +4,13 @@ function mapToNegativize(array) {
 }
 
 function mapToNoChange() {
-  
+
 }
 
 function mapToDouble() {
-  
+
 }
 
 function mapToSquare() {
-  
+
 }
