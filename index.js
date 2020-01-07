@@ -19,7 +19,7 @@ function reduceToTotal(array, start=0) {
   const reduce = function(summy, current) {
     return summy + current
   }
-  return array(reduce + start)
+  return array.reduce(reduce + start)
 }
 
 function reduceToAllTrue() {
