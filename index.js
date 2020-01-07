@@ -16,7 +16,7 @@ function mapToSquare(array) {
 }
 
 function reduceToTotal(array, start=0) {
-  const reducer = function(summy, current) {return summy + current}
+  const reducer = function(accumulate, current) {return accumulate + current}
   return array.reduce(reducer + start)
 }
 
