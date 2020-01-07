@@ -1,6 +1,6 @@
 // Your code here
 function mapToNegativize(array) {
-  for (i = 0; 0 < array.length; i++);
+  for (var i = 0; 0 < array.length; i++);
   return i * -1;
 }
 
