@@ -15,8 +15,8 @@ function mapToSquare(array) {
   return array.map(i => i**2)
 }
 
-function reduceToTotal() {
-
+function reduceToTotal(array) {
+  return array.sum
 }
 
 function reduceToAllTrue() {
