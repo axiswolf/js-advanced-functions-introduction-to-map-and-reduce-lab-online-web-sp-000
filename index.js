@@ -16,13 +16,13 @@ function mapToSquare(array) {
 }
 
 function reduceToTotal() {
-  
+
 }
 
 function reduceToAllTrue() {
-  
+
 }
 
 function reduceToAnyTrue() {
-  
+
 }
