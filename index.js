@@ -1,7 +1,7 @@
 // Your code here
-const mapToNegativize = array.map(num => {
-  return num * -1
-})
+functuon mapToNegativize(array) {
+  return array(x => x * -1)
+}
 
 function mapToNoChange() {
 
